@@ -1,7 +1,6 @@
 # marathon-autoscale
 Dockerized container autoscaler that can be run under Marathon management to dynamically scale a service running on DC/OS.
 
-
 ## Prerequisites
 A running DCOS cluster.
 
@@ -79,6 +78,4 @@ In this mode, the system will scale the service up or down when the CPU has been
 #### MEM 
 
 In this mode, the system will scale the service up or down when the Memory has been out of range for the number of cycles defined in AS_TRIGGER_NUMBER (for up) or AS_COOL_DOWN_FACTOR (for down).
-
-
 
